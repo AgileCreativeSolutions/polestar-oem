@@ -1,0 +1,359 @@
+/* OEM Font Embed */
+@font-face {
+src: url(https://www.polestar.com/shared-assets/fonts/polestar-unica/regular.woff2) format('woff2'), url(https://www.polestar.com/shared-assets/fonts/polestar-unica/regular.woff) format('woff');
+font-family: "Polestar Unica";
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+/* OEM Font Embed */
+
+
+
+/* OEM Font */
+.acs-wrapper, .acs-oem-brand { 
+font-family: "Polestar Unica", sans-serif
+}
+/* OEM Font */
+
+
+
+/* Heading Tags */
+.acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
+font-family: "Polestar Unica", sans-serif;
+font-weight: 400;
+line-height: 1.2;
+}
+
+
+.acs-h1 {
+font-size: 2rem;
+}
+
+.acs-h2 {
+font-size: 1.8rem;
+}
+
+.acs-h3 {
+font-size: 1.6rem;
+}
+
+.acs-h4 {
+font-size: 1.4rem;
+}
+
+.acs-h5 {
+font-size: 1.2rem;
+}
+
+.acs-h6 {
+font-size: 1.1rem;
+}
+
+/* Larger than phablet */
+@media (min-width: 575px) {
+.acs-h1 {
+font-size: 2.5rem;
+}
+
+.acs-h2 {
+font-size: 2.2rem !important;
+}
+
+.acs-h3 {
+font-size: 1.8rem !important;
+}
+
+.acs-h4 {
+font-size: 1.6rem !important;
+}
+
+.acs-h5 {
+font-size: 1.4rem !important;
+}
+
+.acs-h6 {
+font-size: 1.2rem !important;
+}
+}
+/* Heading Tags */
+
+
+
+/* OEM Font Variables */
+.acs-bold {
+font-family: var(--bold-font);   
+font-weight: 700;
+}
+/* OEM Font Variables */
+
+
+
+/* Variables */
+.acs-wrapper, .acs-oem-brand {
+--accent: #FF7500;
+--accent2: #D3E2FF;
+--accent3: #648498;
+--accent4: #0000ee;
+--accent5: #3860be;
+--black: #000000; 
+--white: #ffffff; 
+--gray: #f0f0f0;
+--gray2: #999999;
+--tan: #d9d9d6;
+--brown: #beb4ae; 
+--brown2: #58382c; 
+--brown3: #5c2c34;
+--dark: #494c4f; 
+--dark2: #696969; 
+--dark3: #555555; 
+--dark4: #53565a; 
+--bold-font: "Polestar Unica", sans-serif;
+}
+/* Variables */
+
+
+
+/* Text Colors */
+.acs-gray {
+color: var(--gray)
+}
+.acs-gray2 {
+color: var(--gray2)
+}
+.acs-gray3 {
+color: var(--gray3)
+}
+/* Text Colors */
+
+
+
+/* Accent Colors */
+.acs-accent {
+color: var(--accent)
+}
+.acs-accent2 {
+color: var(--accent2)
+}
+.acs-accent3 {
+color: var(--accent3)
+}
+.acs-accent4 {
+color: var(--accent4)
+}
+.acs-accent5 {
+color: var(--accent5)
+}
+/* Accent Colors */
+
+
+
+/* BG Colors */
+.acs-bg-accent {
+--acs-bg-opacity: 1;
+background-color: var(--accent);
+background-color: rgba(255,117,0, var(--acs-bg-opacity))
+}
+.acs-bg-accent2 {
+--acs-bg-opacity: 1;
+background-color: var(--accent2);
+background-color: rgba(211,226,255, var(--acs-bg-opacity))
+}
+.acs-bg-accent3 {
+--acs-bg-opacity: 1;
+background-color: var(--accent3);
+background-color: rgba(100,132,152, var(--acs-bg-opacity))
+}
+.acs-bg-accent4 {
+--acs-bg-opacity: 1;
+background-color: var(--accent4);
+background-color: rgba(0,0,238, var(--acs-bg-opacity))
+}
+.acs-bg-accent5 {
+--acs-bg-opacity: 1;
+background-color: var(--accent5);
+background-color: rgba(56,96,190, var(--acs-bg-opacity))
+}
+.acs-bg-gray {
+--acs-bg-opacity: 1;
+background-color: var(--gray);
+background-color: rgba(240,240,240, var(--acs-bg-opacity))
+}
+.acs-bg-gray2 {
+--acs-bg-opacity: 1;
+background-color: var(--gray2);
+background-color: rgba(153,153,153, var(--acs-bg-opacity))
+}
+.acs-bg-tan {
+--acs-bg-opacity: 1;
+background-color: var(--tan);
+background-color: rgba(217,217,214, var(--acs-bg-opacity))
+}
+.acs-bg-brown {
+--acs-bg-opacity: 1;
+background-color: var(--brown);
+background-color: rgba(190,180,174, var(--acs-bg-opacity))
+}
+.acs-bg-brown2 {
+--acs-bg-opacity: 1;
+background-color: var(--brown2);
+background-color: rgba(88,56,44, var(--acs-bg-opacity))
+}
+.acs-bg-brown3 {
+--acs-bg-opacity: 1;
+background-color: var(--brown3);
+background-color: rgba(92,44,52, var(--acs-bg-opacity))
+}
+.acs-bg-dark {
+--acs-bg-opacity: 1;
+background-color: var(--dark);
+background-color: rgba(73,76,79, var(--acs-bg-opacity))
+}
+.acs-bg-dark2 {
+--acs-bg-opacity: 1;
+background-color: var(--dark2);
+background-color: rgba(105,105,105, var(--acs-bg-opacity))
+}
+.acs-bg-dark3 {
+--acs-bg-opacity: 1;
+background-color: var(--dark3);
+background-color: rgba(85,85,85, var(--acs-bg-opacity))
+}
+.acs-bg-dark4 {
+--acs-bg-opacity: 1;
+background-color: var(--dark4);
+background-color: rgba(83,86,90, var(--acs-bg-opacity))
+}
+/* BG Colors */
+
+
+
+/* Link Accent */
+.acs-link-accent,
+.acs-link-accent2 {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  margin-right: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  position: relative;
+}
+
+/* Specific color styling */
+.acs-link-accent {
+  color: var(--black) !important;
+}
+
+.acs-link-accent:hover {
+  color: var(--dark3) !important;
+}
+
+.acs-link-accent2 {
+  color: var(--white) !important;
+}
+
+.acs-link-accent2:hover {
+  opacity: 0.64 !important;
+}
+
+/* Shared arrow container and animation */
+.acs-arrow-container {
+  display: inline-block;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+}
+
+.acs-arrow,
+.acs-arrow-clone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+.acs-arrow-clone {
+  transform: translateX(-100%);
+}
+
+/* Shared hover arrow animation for both link types */
+.acs-link-accent:hover .acs-arrow,
+.acs-link-accent2:hover .acs-arrow {
+  transform: translateX(100%);
+}
+
+.acs-link-accent:hover .acs-arrow-clone,
+.acs-link-accent2:hover .acs-arrow-clone {
+  transform: translateX(0%);
+}
+/* Link Accent */
+
+
+
+/* BUTTONS: START */
+.acs-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 1rem;
+  line-height: 1;
+  text-decoration: none;
+  padding: 18px 1.5em;
+  transition: background 0.3s, color 0.3s;
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  border: 1px solid;
+}
+
+/* Modifier: Black button */
+.acs-button-black {
+  color: var(--black);
+  border-color: var(--black);
+}
+
+.acs-button-black:hover {
+  border-color: var(--dark3);
+}
+
+/* Modifier: White button */
+.acs-button-white {
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.acs-button-white:hover {
+  border-color: var(--gray);
+}
+
+/* Arrow animation shared styles */
+.acs-arrow-container {
+  display: inline-block;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  margin-left: 0;
+  overflow: hidden;
+}
+
+.acs-arrow,
+.acs-arrow-clone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+.acs-arrow-clone {
+  transform: translateX(-100%);
+}
+
+.acs-button:hover .acs-arrow {
+  transform: translateX(100%);
+}
+
+.acs-button:hover .acs-arrow-clone {
+  transform: translateX(0%);
+}
