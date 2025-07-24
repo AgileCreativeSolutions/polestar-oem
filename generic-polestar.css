@@ -393,7 +393,7 @@ transform: translateX(0%);
 
 /* Button 3 */
 .acs-button3 {
-color: var(--white);
+color: var(--white) !important;
 text-decoration: none !important;
 background: var(--black);
 padding: 13px 25px;
@@ -407,6 +407,7 @@ padding-left: 9px;
 }
 
 .acs-button3:hover {
+color: var(--white) !important;
 background: var(--dark5)
 }
 /* Button 3 */
